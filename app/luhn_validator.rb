@@ -16,7 +16,7 @@ doubles=[]
         
 sum=(doubles.reduce(:+)*9).to_s
 
-nums_a.last==sum[sum.length-1].to_i ? validnum = true : validnum = false
+nums_a.last==sum[sum.length-1].to_i ? true : false
 
 end
 end
